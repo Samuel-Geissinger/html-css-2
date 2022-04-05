@@ -1,0 +1,55 @@
+html {
+    scroll-behavior: smooth;
+}
+header {
+    background: #DCDCDC;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+  
+#upper-box {
+    height: 6vh;
+    width: 6vh;
+    background-color: #5b8fdc;
+    margin: 0 0 0 2vh;
+}
+article {
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+.rectangles {
+    width: 100vw;
+    height: 25vh;
+}
+  
+#Box1 {
+    background: #5b8fdc;
+}
+#Box2 {
+    background: #7be0c3;
+}
+#Box3 {
+    background: #c2e791;
+}
+#Box4 {
+    background: #f5e752;
+}
+  
+.question-mark {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    position: fixed;
+    font-size: 5vh;
+    bottom: 0;
+    right: 0;
+    margin: 0 1vh 1vh 0;
+}
